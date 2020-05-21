@@ -13,9 +13,10 @@ def list_dwarves(array)
   list = []
   array.each_with_index do |dwarf, num|
     num = 1
-    #{num.to_s}. #{dwarf}
+   list << #{num.to_s}. #{dwarf}
     num += 1
   end 
+ p list 
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
