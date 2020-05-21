@@ -10,7 +10,7 @@ end
 def list_dwarves(array)
   num_list 
   count = 1 
-  while count < array.each do |dwarf|
+  while count < array.each do 
     p count.to_s + " #{dwarf}"
     count += 1 
   end 
