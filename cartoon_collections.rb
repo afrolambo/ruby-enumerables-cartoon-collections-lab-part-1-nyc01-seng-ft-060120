@@ -9,11 +9,11 @@ end
 
   
 def list_dwarves(array)
-    array.each_with_index do |dwarf, num|
-      num = 1
+  num = 1
+  array.each_with_index do |dwarf, num|
       p "#{num.to_s}. #{dwarf}"
-        num += 1 
   end 
+  num += 1 
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
