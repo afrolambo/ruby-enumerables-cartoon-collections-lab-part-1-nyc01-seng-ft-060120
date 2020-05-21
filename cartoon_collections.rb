@@ -12,7 +12,7 @@ def list_dwarves(array)
     array.each_with_index do |dwarf, num|
       num = 1
       p "#{num.to_s}. #{dwarf}"
-      num += 1 
+        num += 1 
   end 
   # Use `each_with_index` to enumerate over the provided array
   #
