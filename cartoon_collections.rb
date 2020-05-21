@@ -7,11 +7,6 @@ def greet_characters(array)
   # Print a custom greeting for each element
 end
 
-# Calls block with two arguments, the item and its index, for each item in enum. Given arguments are passed through to each().
-
-hash = Hash.new
-%w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
   
 def list_dwarves(array)
   index = 0 
