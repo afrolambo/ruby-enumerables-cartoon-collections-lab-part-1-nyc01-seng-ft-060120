@@ -9,14 +9,10 @@ end
 
   
 def list_dwarves(array)
-  index = 0 
-  while index < array.length do 
     num = 1
     array.each_with_index do |dwarf, num|
     p "#{num.to_s}" + ". #{dwarf}"
     num += 1 
-  end 
-  index += 1 
   end 
   # Use `each_with_index` to enumerate over the provided array
   #
