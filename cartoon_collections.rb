@@ -7,10 +7,15 @@ def greet_characters(array)
   # Print a custom greeting for each element
 end
 
+
+hash = Hash.new
+%w(cat dog wombat).each_with_index { |item, index|
+  hash[item] = index
+  
 def list_dwarves(array)
-  count = 0 
-  list = 1
-  while count < array.each do 
+  list = []
+  array.each_with_index do |dwarf, index|
+    list
     p list.to_s + " #{dwarf}"
     list += 1
   end 
