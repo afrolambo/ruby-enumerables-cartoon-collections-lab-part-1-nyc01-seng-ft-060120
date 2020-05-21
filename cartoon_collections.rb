@@ -8,7 +8,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  num_list 
+  num_list = []
   count = 1 
   while count < array.each do 
     p count.to_s + " #{dwarf}"
