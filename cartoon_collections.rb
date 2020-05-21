@@ -8,10 +8,11 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  count = 1 
+  count = 0 
+  list = 1
   while count < array.each do 
-    p count.to_s + " #{dwarf}"
-    count += 1 
+    p list.to_s + " #{dwarf}"
+    list += 1
   end 
   # Use `each_with_index` to enumerate over the provided array
   #
