@@ -11,9 +11,10 @@ def list_dwarves(array)
   num_list = []
   count = 1 
   while count < array.each do 
-    p count.to_s + " #{dwarf}"
+    num_list << count.to_s + " #{dwarf}"
     count += 1 
   end 
+  p num_list
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
